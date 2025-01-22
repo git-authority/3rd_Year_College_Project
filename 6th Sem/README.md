@@ -26,4 +26,6 @@ This folder contains all the source code used in the project. Key details includ
 
 - **u10_Plots:**
   - Code for generating plots of hourly datasets for a specific day of each year from **2013 to 2023**.
+  - Here, we calculate the spatial mean of the U10 component by averaging across the 'latitude' and 'longitude' dimensions. This collapses the 2D spatial grid (latitude x longitude) into a single value for each time step, resulting in a time series of spatially averaged wind speeds.
+  - **Important:** This does **NOT** compute a daily average. The hourly data points are retained as they are, without any further aggregation over time. We are only simplifying the spatial aspect of the data.
 
