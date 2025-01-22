@@ -5,7 +5,7 @@ import matplotlib.dates as mdates
 import numpy as np
 
 # Define the folder containing datasets
-data_folder = "E:\\3rd_Year_College_Project\\6th Sem"
+data_folder = "E:\\3rd_Year_College_Project\\6th Sem\\Datasets"
 
 # List all files in the folder and filter for .nc files
 all_files = os.listdir(data_folder)
